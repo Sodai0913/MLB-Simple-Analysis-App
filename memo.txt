@@ -1,0 +1,5 @@
+streamlitローカル起動
+streamlit run 01_⚾MLBチーム_個人成績.py
+
+MLB_past_data.pyは一応コメントアウトしているが絶対に起動しない
+
