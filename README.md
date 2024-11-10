@@ -12,33 +12,23 @@ pip install --upgrade openai
 
 # 各ファイルの説明
 メインのアプリ部分
--MLBのチーム成績や個人成績を見ることができるところ\n
-01_⚾MLBチーム_個人成績.py
+01_⚾MLBチーム_個人成績.py:MLBのチーム成績や個人成績を見ることができるところ
 
--パワーチャートなどを見て分析をすることができるところ
-02_勝敗分析.py
+02_勝敗分析.py:パワーチャートなどを見て分析をすることができるところ
 
--RAGによるアプリの説明を見ることができる機能
-03_help.py
+03_help.py:RAGによるアプリの説明を見ることができる機能
 
--機械学習で使う用のデータを集めるプログラム
-Data_collection.py
+Data_collection.py:機械学習で使う用のデータを集めるプログラム
 
--MLB簡易分析アプリに使うデータをスクレイピングするプログラム
-main.py
+main.py:MLB簡易分析アプリに使うデータをスクレイピングするプログラム
 
--help.pyの回答を評価するプログラム
-LLM_as_a_judge.py
+LLM_as_a_judge.py:help.pyの回答を評価するプログラム
 
 # 各フォルダの説明
--data
-MLB簡易分析アプリに使うデータを入れるフォルダ
+data:MLB簡易分析アプリに使うデータを入れるフォルダ
 
--evaluation_resault
-LLM_as_a_judge.pyの結果を入れるフォルダ
+evaluation_resault:LLM_as_a_judge.pyの結果を入れるフォルダ
 
--pages
-02_勝敗分析.py,03_help.pyを入れるフォルダ
+pages:02_勝敗分析.py,03_help.pyを入れるフォルダ
 
--QA_data
-LLM_as_a_judge.pyで評価する評価対象を入れるフォルダ
+QA_data:LLM_as_a_judge.pyで評価する評価対象を入れるフォルダ
