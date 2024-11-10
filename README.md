@@ -1,14 +1,20 @@
 # MLB-Simple-Analysis-App
 
 streamlitローカル起動
+```
 streamlit run 01_⚾MLBチーム_個人成績.py
+```
 
 LLM as a judgeとRAGで使っているopneaiのバージョンが違うため下記で変更
 LLM as a judgeを使う場合はこっち
+```
 pip install openai==0.28
+```
 
 RAGを動かす場合はこっち
+```
 pip install --upgrade openai
+```
 
 # 各ファイルの説明
 メインのアプリ部分
