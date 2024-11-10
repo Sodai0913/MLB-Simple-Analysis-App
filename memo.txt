@@ -1,5 +1,9 @@
 streamlitローカル起動
 streamlit run 01_⚾MLBチーム_個人成績.py
 
-MLB_past_data.pyは一応コメントアウトしているが絶対に起動しない
+LLM as a judgeとRAGで使っているopneaiのバージョンが違うため下記で変更
+LLM as a judgeを使う場合はこっち
+pip install openai==0.28
 
+RAGを動かす場合はこっち
+pip install --upgrade openai
